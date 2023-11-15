@@ -1,0 +1,27 @@
+
+/*Herencia en CSS*/
+body{
+    font-family: 16px;
+    background-color: antiquewhite;
+}
+a{ /*Se elimina del tag a el subrayado*/
+    text-decoration: none;
+}
+.titulo-sitio{
+    font-size: 50px;
+    text-align: center;
+
+}
+.titulo-sitio span{
+    color: red;
+
+}
+.nav-principal{
+    margin: 20px 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor{
+    max-width: 600px;
+    margin-inline: auto;
+}
